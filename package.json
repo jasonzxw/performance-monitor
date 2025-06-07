@@ -1,0 +1,42 @@
+{
+  "name": "performance-monitor",
+  "version": "1.0.0",
+  "description": "This is browser performance and error monitoring tool",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonzxw/performance-monitor.git"
+  },
+  "keywords": [
+    "Frontend",
+    "Performance",
+    "Error",
+    "Report",
+    "Monitor"
+  ],
+  "author": "jason_zuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonzxw/performance-monitor/issues"
+  },
+  "homepage": "https://github.com/jasonzxw/performance-monitor#readme",
+  "dependencies": {
+    "ts-lib": "^0.0.5",
+    "typescript": "^5.8.3"
+  }
+}
